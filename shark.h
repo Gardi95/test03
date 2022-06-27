@@ -23,7 +23,9 @@ public:
 
     void setAge(int age);
 
-    
+    bool canBeCaught();
+
+    void print() const;
 };
 
 

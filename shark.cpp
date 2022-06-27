@@ -2,6 +2,7 @@
 // Created by MSY on 6/27/2022.
 //
 
+#include <iostream>
 #include "shark.h"
 
 shark::shark(const std::string &fishName, int size,
@@ -13,4 +14,13 @@ int shark::getAge() const {
 
 void shark::setAge(int age) {
     shark::age = age;
+}
+
+bool shark::canBeCaught() {
+    return true;
+}
+
+void shark::print() const {
+    Fish::print();
+    std::cout << "shark age: " << age << std::endl;
 }
