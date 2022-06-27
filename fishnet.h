@@ -25,6 +25,10 @@ public:
 
     Fish *const *getSetOfFish() const;
 
+    bool setFish(Fish* fish);
+    int numberOfCaughtFish();
+    bool fishCanBeCaught();
+    void print() const;
 
 };
 
