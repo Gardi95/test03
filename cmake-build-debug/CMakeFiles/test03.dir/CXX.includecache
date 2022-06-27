@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/2021/C++/test03/Fish.h
+string
+-
+
+D:/2021/C++/test03/fishnet.cpp
+iostream
+-
+fishnet.h
+D:/2021/C++/test03/fishnet.h
+
+D:/2021/C++/test03/fishnet.h
+Fish.h
+D:/2021/C++/test03/Fish.h
+string
+-
+

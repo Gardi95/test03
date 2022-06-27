@@ -33,7 +33,7 @@ int fishnet::numberOfCaughtFish() {
 
     int number = 0;
     for(int i = 0; i < 5; i++) {
-        if(setOfFish[i] == NULL) {
+        if(setOfFish[i] != NULL) {
             number++;
         }
     }
@@ -50,12 +50,12 @@ bool fishnet::fishCanBeCaught() {
     return false;
 }
 
-void fishnet::print() const {
+void fishnet::print(fishnet* f01) const {
     for(int i = 0; i < 5; i++) {
-        if(setOfFish[i] == NULL) {
+        if(f01->setOfFish[i] == NULL) {
             std::cout << "null" << std::endl;
         } else {
-            std::cout << "fish name: " << setOfFish[i]->getFishName() << std::endl;
+            std::cout << "fish name: " << f01->setOfFish[i]->getFishName() << std::endl;
         }
     }
 

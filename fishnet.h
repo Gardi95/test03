@@ -28,7 +28,7 @@ public:
     bool setFish(Fish* fish);
     int numberOfCaughtFish();
     bool fishCanBeCaught();
-    void print() const;
+    void print(fishnet* f01) const;
 
 };
 

@@ -27,7 +27,7 @@ void carp::setAge(int age) {
 bool carp::canBeCaught() {
 
     if(age > 2 && achivedMinSize()) {
-        retrun true;
+        return true;
     }
 
     return false;
