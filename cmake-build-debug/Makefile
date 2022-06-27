@@ -152,6 +152,30 @@ Fish.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/Fish.cpp.s
 .PHONY : Fish.cpp.s
 
+carp.obj: carp.cpp.obj
+.PHONY : carp.obj
+
+# target to build an object file
+carp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/carp.cpp.obj
+.PHONY : carp.cpp.obj
+
+carp.i: carp.cpp.i
+.PHONY : carp.i
+
+# target to preprocess a source file
+carp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/carp.cpp.i
+.PHONY : carp.cpp.i
+
+carp.s: carp.cpp.s
+.PHONY : carp.s
+
+# target to generate assembly for a file
+carp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/carp.cpp.s
+.PHONY : carp.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -188,6 +212,9 @@ help:
 	@echo ... Fish.obj
 	@echo ... Fish.i
 	@echo ... Fish.s
+	@echo ... carp.obj
+	@echo ... carp.i
+	@echo ... carp.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
