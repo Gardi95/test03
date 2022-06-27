@@ -86,13 +86,19 @@
 		<Unit filename="D:/2021/C++/test03/Fish.h">
 			<Option target="test03"/>
 		</Unit>
-		<Unit filename="D:/2021/C++/test03/cmake-build-debug/carp.cpp">
+		<Unit filename="D:/2021/C++/test03/carp.cpp">
 			<Option target="test03"/>
 		</Unit>
-		<Unit filename="D:/2021/C++/test03/cmake-build-debug/carp.h">
+		<Unit filename="D:/2021/C++/test03/carp.h">
 			<Option target="test03"/>
 		</Unit>
 		<Unit filename="D:/2021/C++/test03/main.cpp">
+			<Option target="test03"/>
+		</Unit>
+		<Unit filename="D:/2021/C++/test03/shark.cpp">
+			<Option target="test03"/>
+		</Unit>
+		<Unit filename="D:/2021/C++/test03/shark.h">
 			<Option target="test03"/>
 		</Unit>
 		<Unit filename="D:/2021/C++/test03/CMakeLists.txt">

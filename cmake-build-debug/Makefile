@@ -200,6 +200,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+shark.obj: shark.cpp.obj
+.PHONY : shark.obj
+
+# target to build an object file
+shark.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/shark.cpp.obj
+.PHONY : shark.cpp.obj
+
+shark.i: shark.cpp.i
+.PHONY : shark.i
+
+# target to preprocess a source file
+shark.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/shark.cpp.i
+.PHONY : shark.cpp.i
+
+shark.s: shark.cpp.s
+.PHONY : shark.s
+
+# target to generate assembly for a file
+shark.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/shark.cpp.s
+.PHONY : shark.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -218,6 +242,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... shark.obj
+	@echo ... shark.i
+	@echo ... shark.s
 .PHONY : help
 
 
