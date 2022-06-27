@@ -128,6 +128,30 @@ test03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/build
 .PHONY : test03/fast
 
+Fish.obj: Fish.cpp.obj
+.PHONY : Fish.obj
+
+# target to build an object file
+Fish.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/Fish.cpp.obj
+.PHONY : Fish.cpp.obj
+
+Fish.i: Fish.cpp.i
+.PHONY : Fish.i
+
+# target to preprocess a source file
+Fish.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/Fish.cpp.i
+.PHONY : Fish.cpp.i
+
+Fish.s: Fish.cpp.s
+.PHONY : Fish.s
+
+# target to generate assembly for a file
+Fish.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/Fish.cpp.s
+.PHONY : Fish.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test03
+	@echo ... Fish.obj
+	@echo ... Fish.i
+	@echo ... Fish.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
