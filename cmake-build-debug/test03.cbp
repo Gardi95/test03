@@ -92,6 +92,12 @@
 		<Unit filename="D:/2021/C++/test03/carp.h">
 			<Option target="test03"/>
 		</Unit>
+		<Unit filename="D:/2021/C++/test03/fishnet.cpp">
+			<Option target="test03"/>
+		</Unit>
+		<Unit filename="D:/2021/C++/test03/fishnet.h">
+			<Option target="test03"/>
+		</Unit>
 		<Unit filename="D:/2021/C++/test03/main.cpp">
 			<Option target="test03"/>
 		</Unit>

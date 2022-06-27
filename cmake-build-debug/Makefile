@@ -176,6 +176,30 @@ carp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/carp.cpp.s
 .PHONY : carp.cpp.s
 
+fishnet.obj: fishnet.cpp.obj
+.PHONY : fishnet.obj
+
+# target to build an object file
+fishnet.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/fishnet.cpp.obj
+.PHONY : fishnet.cpp.obj
+
+fishnet.i: fishnet.cpp.i
+.PHONY : fishnet.i
+
+# target to preprocess a source file
+fishnet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/fishnet.cpp.i
+.PHONY : fishnet.cpp.i
+
+fishnet.s: fishnet.cpp.s
+.PHONY : fishnet.s
+
+# target to generate assembly for a file
+fishnet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test03.dir\build.make CMakeFiles/test03.dir/fishnet.cpp.s
+.PHONY : fishnet.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -239,6 +263,9 @@ help:
 	@echo ... carp.obj
 	@echo ... carp.i
 	@echo ... carp.s
+	@echo ... fishnet.obj
+	@echo ... fishnet.i
+	@echo ... fishnet.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
